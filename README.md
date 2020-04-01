@@ -5,7 +5,7 @@ The Aho-Corasick algorithm implemented with C++ and a simple example of use
 Suppose there is a pattern matching machine for the set of keywords {he, she, his, hers}.
 If you input 'hisheshehers', then the machine outputs 'his', 'she', 'he', 'she', 'he', 'he', 'hers'.
 
-This is because:  
+This is because:\
 (his)heshehers  
 hi(she)shehers  
 his(he)shehers  
