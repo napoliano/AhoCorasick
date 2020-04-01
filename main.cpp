@@ -20,7 +20,7 @@ void Example()
 
 	std::wstring data = L"hisheshehers";
 	auto patterns = patternMatchingMachine.Match(data);
-	for (auto pattern : patterns)
+	for (auto& pattern : patterns)
 	{
 		std::wcout << pattern << std::endl;
 	}
